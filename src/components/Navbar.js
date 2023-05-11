@@ -22,7 +22,7 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link href="./Home.js" style={{ color: '#fff' }}>
+            <Nav.Link href="./" style={{ color: '#fff' }}>
               Home
             </Nav.Link>
             {/* <Nav.Link href="./About.js" style={{ color: '#fff' }}>
