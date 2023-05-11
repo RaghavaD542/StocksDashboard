@@ -4,6 +4,7 @@ import Axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import FrontPageStocks from './FrontPageStocks';
+import Example from './/Example';
 
 // import getJson from 'axios-get-json-response';
 
@@ -69,7 +70,12 @@ const Home = () => {
       <br />
       <form method="post" onSubmit={handleSubmit}>
         <label className="ticker-name">Ticker Name:</label>
-        <input type="text" name="name" onChange={handleChange} />
+        <input
+          type="text"
+          name="name"
+          placeholder="Example : AAPL, TSLA, ^NSEI, BPCL.NS"
+          onChange={handleChange}
+        />
         <br />
         <br />
         <button type="submit" className="button-36">
@@ -333,6 +339,7 @@ const Home = () => {
             </tbody>
           </Table>
         )}
+        <Example {...formData} />
       </div>
       <br />
       <br />

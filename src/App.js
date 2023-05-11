@@ -6,13 +6,6 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 
 export default class App extends Component {
-  // constructor() {
-  //   super();
-  //   // this.state = {
-  //   //   Id: 'bitcoin',
-  //   //   Data: {},
-  //   // };
-  // }
   render() {
     return (
       <div className="App">

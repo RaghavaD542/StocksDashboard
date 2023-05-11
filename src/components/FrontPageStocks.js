@@ -37,15 +37,30 @@ const FrontPageStocks = () => {
               <td>
                 <div className="current">
                   {data !== [] && (
-                    <Card>
+                    <Card
+                      border="success"
+                      style={{
+                        width: '25rem',
+                        borderWidth: '5px',
+                        borderColor: '#000',
+                        alignItems: 'center',
+                        boxShadow:
+                          'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+                      }}
+                    >
                       <Card.Body>
-                        <Card.Title>{data[0][0]}</Card.Title>
+                        <Card.Title>
+                          {data[0][0]}( {data[0][4]} ){' '}
+                        </Card.Title>
                         <Card.Subtitle
                           style={{
                             color: data[0][2] > 0 ? 'green' : 'red',
                           }}
                         >
-                          <h3>{data[0][1]}</h3>
+                          <h3>
+                            {data[0][1]}{' '}
+                            <span> {data[0][2] > 0 ? '⬆' : '⬇'}</span>{' '}
+                          </h3>
                           {data[0][2]} ({data[0][3]})
                         </Card.Subtitle>
                       </Card.Body>
@@ -56,15 +71,30 @@ const FrontPageStocks = () => {
               <td>
                 <div className="current">
                   {1 && (
-                    <Card>
+                    <Card
+                      border="success"
+                      style={{
+                        width: '25rem',
+                        borderWidth: '5px',
+                        borderColor: '#000',
+                        alignItems: 'center',
+                        boxShadow:
+                          'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+                      }}
+                    >
                       <Card.Body>
-                        <Card.Title>{data[1][0]}</Card.Title>
+                        <Card.Title>
+                          {data[1][0]} ( {data[1][4]} )
+                        </Card.Title>
                         <Card.Subtitle
                           style={{
                             color: data[1][2] > 0 ? 'green' : 'red',
                           }}
                         >
-                          <h3>{data[1][1]}</h3>
+                          <h3>
+                            {data[1][1]}{' '}
+                            <span> {data[1][2] > 0 ? '⬆' : '⬇'}</span>{' '}
+                          </h3>
                           {data[1][2]} ({data[1][3]})
                         </Card.Subtitle>
                       </Card.Body>
@@ -75,15 +105,30 @@ const FrontPageStocks = () => {
               <td>
                 <div className="current">
                   {1 && (
-                    <Card>
+                    <Card
+                      border="success"
+                      style={{
+                        width: '25rem',
+                        borderWidth: '5px',
+                        borderColor: '#000',
+                        alignItems: 'center',
+                        boxShadow:
+                          'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+                      }}
+                    >
                       <Card.Body>
-                        <Card.Title>{data[2][0]}</Card.Title>
+                        <Card.Title>
+                          {data[2][0]} ( {data[2][4]} )
+                        </Card.Title>
                         <Card.Subtitle
                           style={{
                             color: data[2][2] > 0 ? 'green' : 'red',
                           }}
                         >
-                          <h3>{data[2][1]}</h3>
+                          <h3>
+                            {data[2][1]}{' '}
+                            <span> {data[2][2] > 0 ? '⬆' : '⬇'}</span>{' '}
+                          </h3>
                           {data[2][2]} ({data[2][3]})
                         </Card.Subtitle>
                       </Card.Body>
@@ -97,15 +142,30 @@ const FrontPageStocks = () => {
               <td>
                 <div className="current">
                   {1 && (
-                    <Card>
+                    <Card
+                      border="success"
+                      style={{
+                        width: '25rem',
+                        borderWidth: '5px',
+                        borderColor: '#000',
+                        alignItems: 'center',
+                        boxShadow:
+                          'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+                      }}
+                    >
                       <Card.Body>
-                        <Card.Title>{data[3][0]}</Card.Title>
+                        <Card.Title>
+                          {data[3][0]}( {data[3][4]} )
+                        </Card.Title>
                         <Card.Subtitle
                           style={{
                             color: data[3][2] > 0 ? 'green' : 'red',
                           }}
                         >
-                          <h3>{data[3][1]}</h3>
+                          <h3>
+                            {data[3][1]}{' '}
+                            <span> {data[3][2] > 0 ? '⬆' : '⬇'}</span>{' '}
+                          </h3>
                           {data[3][2]} ({data[3][3]})
                         </Card.Subtitle>
                       </Card.Body>
@@ -116,15 +176,30 @@ const FrontPageStocks = () => {
               <td>
                 <div className="current">
                   {1 && (
-                    <Card>
+                    <Card
+                      border="success"
+                      style={{
+                        width: '25rem',
+                        borderWidth: '5px',
+                        borderColor: '#000',
+                        alignItems: 'center',
+                        boxShadow:
+                          'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+                      }}
+                    >
                       <Card.Body>
-                        <Card.Title>{data[4][0]}</Card.Title>
+                        <Card.Title>
+                          {data[4][0]}( {data[4][4]} )
+                        </Card.Title>
                         <Card.Subtitle
                           style={{
                             color: data[4][2] > 0 ? 'green' : 'red',
                           }}
                         >
-                          <h3>{data[4][1]}</h3>
+                          <h3>
+                            {data[4][1]}{' '}
+                            <span> {data[4][2] > 0 ? '⬆' : '⬇'}</span>{' '}
+                          </h3>
                           {data[4][2]} ({data[4][3]})
                         </Card.Subtitle>
                       </Card.Body>
@@ -135,15 +210,30 @@ const FrontPageStocks = () => {
               <td>
                 <div className="current">
                   {1 && (
-                    <Card>
+                    <Card
+                      border="success"
+                      style={{
+                        width: '25rem',
+                        borderWidth: '5px',
+                        borderColor: '#000',
+                        alignItems: 'center',
+                        boxShadow:
+                          'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px',
+                      }}
+                    >
                       <Card.Body>
-                        <Card.Title>{data[5][0]}</Card.Title>
+                        <Card.Title>
+                          {data[5][0]}( {data[5][4]} )
+                        </Card.Title>
                         <Card.Subtitle
                           style={{
                             color: data[5][2] > 0 ? 'green' : 'red',
                           }}
                         >
-                          <h3>{data[5][1]}</h3>
+                          <h3>
+                            {data[5][1]}{' '}
+                            <span> {data[5][2] > 0 ? '⬆' : '⬇'}</span>{' '}
+                          </h3>
                           {data[5][2]} ({data[5][3]})
                         </Card.Subtitle>
                       </Card.Body>

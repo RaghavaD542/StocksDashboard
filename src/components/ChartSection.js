@@ -138,11 +138,6 @@ export class ChartSection extends Component {
     });
   };
   updateData(timeline) {
-    console.log(this.state);
-    // this.setState({
-    //   selection: timeline,
-    // });
-
     switch (timeline) {
       case 'one_month':
         ApexCharts.exec(
