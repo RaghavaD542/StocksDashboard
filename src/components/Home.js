@@ -4,7 +4,6 @@ import Axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import Table from 'react-bootstrap/Table';
 import FrontPageStocks from './FrontPageStocks';
-import Example from './/Example';
 
 // import getJson from 'axios-get-json-response';
 
@@ -339,7 +338,6 @@ const Home = () => {
             </tbody>
           </Table>
         )}
-        //<Example {...formData} />
       </div>
       <br />
       <br />
