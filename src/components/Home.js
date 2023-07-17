@@ -339,7 +339,7 @@ const Home = () => {
             </tbody>
           </Table>
         )}
-        <Example {...formData} />
+        //<Example {...formData} />
       </div>
       <br />
       <br />
